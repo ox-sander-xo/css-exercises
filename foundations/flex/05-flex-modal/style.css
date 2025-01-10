@@ -12,14 +12,53 @@ body {
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center
+}
+
+.header {
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0;
 }
 
 .modal {
   background: white;
   width: 480px;
+  padding: 15px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 16px;
+  margin: 0;
+}
+
+.left {
+align-items: left;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 0;
+}
+
+.top-line{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bottom-line {
+  display: flex;
+  gap: 4px;
+  margin: 6px 0px;
+}
+
+.text {
+  margin: 0;
 }
 
 .icon {
